@@ -17,7 +17,7 @@
       >
         Nuxt Boilerplate is an
         <a
-          href="https://github.com/lukajaa/nuxt-boilerplate"
+          href="https://github.com/lucaskchang/nuxt-boilerplate"
           target="_blank"
           rel="noopener noreferrer"
           class="font-bold text-cyan-500 hover:text-cyan-600"
@@ -60,12 +60,12 @@
           size="lg"
           label="Try it yourself here"
           icon="i-heroicons-arrow-right"
-          to="https://github.com/lukajaa/nuxt-boilerplate"
+          to="https://github.com/lucaskchang/nuxt-boilerplate"
           trailing
         />
       </div>
     </div>
-    <div class="mx-auto mt-8 flex flex-col">
+    <div class="sticky top-full mx-auto flex flex-col">
       <p
         class="md:text-lg"
         :class="{ inter: $colorMode.value === 'dark', nunito: $colorMode.value !== 'dark' }"
