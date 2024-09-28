@@ -1,4 +1,4 @@
-<template :class="$colorMode.value">
+<template>
   <div
     class="min-h-screen text-gray-950 transition duration-300 ease-in-out dark:bg-gray-950 dark:text-white"
   >
