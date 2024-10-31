@@ -10,11 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/eslint": "^0.5.1",
+    "@nuxt/eslint": "^0.6.1",
     "@nuxt/fonts": "^0.10.0",
     "@nuxt/image": "^1.7.0",
     "@nuxt/ui": "^2.17.0",
-    "@pinia/nuxt": "^0.5.1",
+    "@pinia/nuxt": "^0.6.1",
     "nuxt": "^3.13.2",
     "nuxt-gtag": "^3.0.1",
     "pinia": "^2.1.7",
