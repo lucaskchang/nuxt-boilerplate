@@ -7,7 +7,7 @@
       >
         All-in-one<br>
         <span
-          :class="{ 'bg-gradient-to-r from-teal-300 via-sky-600 to-cyan-300 bg-clip-text font-sans text-transparent': $colorMode.value === 'dark', 'patrick text-cyan-500': $colorMode.value !== 'dark' }"
+          :class="{ 'bg-linear-to-r from-teal-300 via-sky-600 to-cyan-300 bg-clip-text font-sans text-transparent': $colorMode.value === 'dark', 'patrick text-cyan-500': $colorMode.value !== 'dark' }"
         >
           Nuxt Boilerplate
         </span>

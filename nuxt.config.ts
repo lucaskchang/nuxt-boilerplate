@@ -1,5 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+
+  modules: [
+    '@nuxt/ui',
+    '@nuxt/image',
+    'nuxt-gtag',
+    '@nuxt/eslint',
+    '@pinia/nuxt',
+    '@vueuse/nuxt',
+  ],
   devtools: { enabled: true },
 
   app: {
@@ -18,21 +27,9 @@ export default defineNuxtConfig({
     },
   },
 
-  css: ['@/assets/css/styles.scss'],
+  css: ['~/assets/css/main.css'],
 
-  modules: [
-    '@nuxt/ui',
-    '@nuxt/image',
-    'nuxt-gtag',
-    '@nuxt/eslint',
-    '@pinia/nuxt',
-    '@vueuse/nuxt',
-    '@nuxt/fonts',
-  ],
-
-  gtag: {
-    id: 'G-QNLZ5NY7HH',
-  },
+  compatibilityDate: '2025-5-20',
 
   eslint: {
     config: {
@@ -40,5 +37,7 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-09-07',
+  gtag: {
+    id: 'G-QNLZ5NY7HH',
+  },
 });
